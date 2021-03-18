@@ -65,35 +65,35 @@ bf=2
 # Question 'bg': To which layer does this protocol correspond?: iSNS
 bg=5
 # Question 'bh': Can applications on nodes 5 and 4 communicate?
-bh=yes
+bh=N
 # Question 'bi': If an application on node 3 sends 733 bytes of byte, how large would the PDU be at layer 5?
-bi=
+bi=1009
 # Question 'bj': What is the data rate that is possible between nodes 3 and 4? {\em Provide the exact number of kilo-bits per second as your answer.} 
-bj=
+bj=796
 # Question 'bk': How many milli-seconds would it take node 3 to send 2619 bytes of data to node 4? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-bk=
+bk=1159
 # Question 'bl': Can applications on nodes 2 and 3 communicate?
-bl=
+bl=Y
 # Question 'bm': If an application on node 0 sends 610 bytes of byte, how large would the PDU be at layer 3?
-bm=
+bm=1390
 # Question 'bn': What is the data rate that is possible between nodes 0 and 3? {\em Provide the exact number of kilo-bits per second as your answer.} 
-bn=
+bn=7918
 # Question 'bo': How many milli-seconds would it take node 0 to send 2037 bytes of data to node 3? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-bo=
+bo= 949
 # Question 'bp': Can applications on nodes 1 and 5 communicate?
-bp=
+bp=Y
 # Question 'bq': If an application on node 1 sends 623 bytes of byte, how large would the PDU be at layer 7?
-bq=
+bq=723
 # Question 'br': What is the data rate that is possible between nodes 1 and 5? {\em Provide the exact number of kilo-bits per second as your answer.} 
-br=
+br=7722
 # Question 'bs': How many milli-seconds would it take node 1 to send 1962 bytes of data to node 5? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-bs=
+bs=1144
 # Question 'bt': Can applications on nodes 2 and 5 communicate?
-bt=
+bt=N
 # Question 'bu': If an application on node 0 sends 127 bytes of byte, how large would the PDU be at layer 2?
-bu=
+bu=1531
 # Question 'bv': What is the data rate that is possible between nodes 0 and 5? {\em Provide the exact number of kilo-bits per second as your answer.} 
-bv=
+bv=29
 # Question 'bw': How many milli-seconds would it take node 0 to send 8024 bytes of data to node 5? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
 bw=
 # Question 'bx': Can applications on nodes 1 and 5 communicate?
