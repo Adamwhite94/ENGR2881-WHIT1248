@@ -95,15 +95,15 @@ bu=1531
 # Question 'bv': What is the data rate that is possible between nodes 0 and 5? {\em Provide the exact number of kilo-bits per second as your answer.} 
 bv=29
 # Question 'bw': How many milli-seconds would it take node 0 to send 8024 bytes of data to node 5? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-bw=
+bw=2310
 # Question 'bx': Can applications on nodes 1 and 5 communicate?
-bx=
+bx=N
 # Question 'by': If an application on node 3 sends 167 bytes of byte, how large would the PDU be at layer 7?
-by=
+by=213
 # Question 'bz': What is the data rate that is possible between nodes 3 and 5? {\em Provide the exact number of kilo-bits per second as your answer.} 
-bz=
+bz=6857
 # Question 'ca': How many milli-seconds would it take node 3 to send 8575 bytes of data to node 5? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-ca=
+ca=1557
 # Question 'cb': Can applications on nodes 1 and 3 communicate?
 cb=
 # Question 'cc': If an application on node 0 sends 815 bytes of byte, how large would the PDU be at layer 5?
