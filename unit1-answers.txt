@@ -105,11 +105,11 @@ bz=6857
 # Question 'ca': How many milli-seconds would it take node 3 to send 8575 bytes of data to node 5? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
 ca=1557
 # Question 'cb': Can applications on nodes 1 and 3 communicate?
-cb=
+cb=N
 # Question 'cc': If an application on node 0 sends 815 bytes of byte, how large would the PDU be at layer 5?
-cc=
+cc=1094
 # Question 'cd': What is the data rate that is possible between nodes 0 and 3? {\em Provide the exact number of kilo-bits per second as your answer.} 
-cd=
+cd=3769
 # Question 'ce': How many milli-seconds would it take node 0 to send 9251 bytes of data to node 3? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
 ce=
 # Question 'cf': Can applications on nodes 5 and 0 communicate?
