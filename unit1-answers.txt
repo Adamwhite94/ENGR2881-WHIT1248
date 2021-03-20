@@ -123,27 +123,27 @@ ci=1097
 # Question 'cj': Can applications on nodes 5 and 3 communicate?
 cj=Y
 # Question 'ck': If an application on node 5 sends 576 bytes of byte, how large would the PDU be at layer 2?
-ck=
+ck=1413
 # Question 'cl': What is the data rate that is possible between nodes 5 and 3? {\em Provide the exact number of kilo-bits per second as your answer.} 
-cl=
+cl=931
 # Question 'cm': How many milli-seconds would it take node 5 to send 953 bytes of data to node 3? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-cm=
+cm=969
 # Question 'cn': Can applications on nodes 1 and 0 communicate?
-cn=
+cn=Y
 # Question 'co': If an application on node 1 sends 800 bytes of byte, how large would the PDU be at layer 7?
-co=
+co=867
 # Question 'cp': What is the data rate that is possible between nodes 1 and 0? {\em Provide the exact number of kilo-bits per second as your answer.} 
-cp=
+cp=2492
 # Question 'cq': How many milli-seconds would it take node 1 to send 7290 bytes of data to node 0? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-cq=
+cq=1094
 # Question 'cr': Can applications on nodes 0 and 2 communicate?
-cr=
+cr=N
 # Question 'cs': If an application on node 5 sends 623 bytes of byte, how large would the PDU be at layer 1?
-cs=
+cs=2192
 # Question 'ct': What is the data rate that is possible between nodes 5 and 2? {\em Provide the exact number of kilo-bits per second as your answer.} 
-ct=
+ct=903
 # Question 'cu': How many milli-seconds would it take node 5 to send 9392 bytes of data to node 2? {\em Provide the exact number of milli-seconds as your answer, rounded down to the nearest whole number.}
-cu=
+cu=1007
 ## Name and describe five reliability challenges for computer networks, referring to the network layers at which these challenges either arise, or are solved.
 # Question 'cv': Reliability Challenge #0
 cv=
