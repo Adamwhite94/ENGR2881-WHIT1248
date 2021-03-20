@@ -146,18 +146,20 @@ ct=903
 cu=1007
 ## Name and describe five reliability challenges for computer networks, referring to the network layers at which these challenges either arise, or are solved.
 # Question 'cv': Reliability Challenge #0
-cv=
+cv=Congestion, this occurs at the transport layer because this layer ensures delivery of data packets.
 # Question 'cw': Reliability Challenge #1
-cw=
+cw=flow control occurs at the transport layer too manage congestion and resend information that fails on delivery
 # Question 'cx': Reliability Challenge #2
-cx=
+cx=Routing occurs at the network layer (layer 3), this is too get packets from one network too another
 # Question 'cy': Reliability Challenge #3
-cy=
+cy=Security, this occurs at the physical layer(represents physical application security) which is responsible for access control and backups etc.
 # Question 'cz': Reliability Challenge #4
-cz=
+cz=Error control occurs at the data link layer (layer 2) which is responsible for correcting any error that may occur at the physical layer
 # Question 'da': Reliable delivery of streaming video 
 BEGIN:da
+Youtube videos have to reliably provide a user a stream of output in the form of a high quality video, this in reference too the OSI layer and protocols surrounding it can be found in the transport layer which is responsible for packet transfer, in this case packets are sent over the UDP protocol and some are lost when transferring but this has no affect on performance quality, similarly the osi layer that is responsible for video calls is the transport layer, instead of using an connectionless and unreliable protocol such as UDP, video calls are conducted over the TCP protocol because of a connection having to first be established. The implications of both of these have based on the way these products are consumed or provided over a network is that high quality video can be provided too a user without heavy networking taxing or without a secure connection to be mad, this is opposite compared to video calls.
 END:da
 # Question 'db': A business wishes to securely connect two remote work sites.  How might this be achieved, described from a layered networking approach? i.e., your proposed solution must be described in terms of the layered networking model. Are there any negative consequences of this, and how might they be mitigated? 
 BEGIN:db
+This could be achieved by using cables to connect too nodes together (which would act as the physical layer based on the OSI) then transmitting the data from one user site over a network (which would be the data link layer and network layer), using this would allow any information to be transmitted, allowing aswell for security too be handled at the physical layer on arrival. Some negative consequences by using this process could be that data can get congested (to fix something can be implemented at the transport layer to manage flow control) another large problem could be that a barebones system could be vulnarable too outside attacks (the solution would be to scale the system up and deal with security at a more manageable level).
 END:db
