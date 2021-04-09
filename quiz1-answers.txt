@@ -1,6 +1,6 @@
 ## Quiz #1: Chapters 1 to 3
 # Question 'ab': True or false: The data link layer transfers data frames
-ab=
+ab=t
 # Question 'ac': True or false: Switches can be interconnected to form larger networks
 ac=
 # Question 'ad': True or false: If an Ethernet is idle, a node with a frame to send will wait a short random period of time before sending the frame, to help avoid packet collisions
