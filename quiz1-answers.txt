@@ -1,0 +1,151 @@
+## Quiz #1: Chapters 1 to 3
+# Question 'ab': True or false: The data link layer transfers data frames
+ab=
+# Question 'ac': True or false: Switches can be interconnected to form larger networks
+ac=
+# Question 'ad': True or false: If an Ethernet is idle, a node with a frame to send will wait a short random period of time before sending the frame, to help avoid packet collisions
+ad=
+# Question 'ae': True or false: Very strong transmission error detection can normally be provided using very few additional bits compared with the size of the data
+ae=
+# Question 'af': True or false: Fibre-optics typically uses frequencies that are in the X-Ray band
+af=
+# Question 'ag': True or false: The combination of the virtual circuit identifier and incoming port number uniquely identifies the virtual circuit to a switch
+ag=
+# Question 'ah': True or false: Switches can implement either datagram or virtual circuit approaches
+ah=
+# Question 'ai': True or false: BISYNC is a byte-oriented framing protocol
+ai=
+# Question 'aj': True or false: When a packet is sent on a connectionless network, the sender has to provide the information for the path the packet should take
+aj=
+# Question 'ak': True or false: 802.11 cannot be used to form ad-hoc wireless networks
+ak=
+# Question 'al': True or false: In 802.11, clients send association requests to connect to a given access point
+al=
+# Question 'am': True or false: The send() function is used to send data or a message over a socket
+am=
+# Question 'an': True or false: When two Ethernet devices attempt to transmit at the same time, the result is collision
+an=
+# Question 'ao': True or false: The Sliding Window protocol tends to slow down if packets are lost
+ao=
+# Question 'ap': True or false: Placing binary data on a signal is called multi-plexing
+ap=
+# Question 'aq': True or false: In 802.11, the duration field is used to indicate whether a frame has already been forwarded via a distribution system or not
+aq=
+# Question 'ar': True or false: HDLC uses a sequence of exactly six consecutive 1s to indicate the end of a frame
+ar=
+# Question 'as': True or false: Two-dimensional parity is able to catch all 1, 2, 3 and 4 bit errors.
+as=
+# Question 'at': True or false: For very small amounts of data the propagation time is more important than the transmission speed
+at=
+# Question 'au': True or false: Switches rely on the contents of packets to get the information required to make switching and forwarding decisions
+au=
+# Question 'av': True or false: DSL and fibre-to-the-home connections have overlapping speed ranges
+av=
+# Question 'aw': True or false: The 802.11 distribution system operates at layer 3 of the ISO architecture
+aw=
+# Question 'ax': True or false: Frequency Division Multiplexing changes the rate of time slots used to share a network link
+ax=
+# Question 'ay': True or false: Error detection bits work by adding new information to the message
+ay=
+# Question 'az': True or false: A separate Ethernet cable was required to connect each additional device on Original Ethernet
+az=
+# Question 'ba': True or false: In a layered network model, the application layer or equivalent must be at the top of the stack of layers
+ba=
+# Question 'bb': True or false: The Sliding Window protocol uses sequence numbers to allow multiple unacknowledged frames at any point in time
+bb=
+# Question 'bc': True or false: Devices that use license-exempt frequencies still face certain restrictions on their use of those license-exempt frequencies
+bc=
+# Question 'bd': True or false: Switching and forwarding relies on either one of hosts or ports having unique identifiers
+bd=
+# Question 'be': True or false: An acknowledgement is sent whenever a peer is ready to receive a frame
+be=
+# Question 'bf': True or false: The Sliding Window protocol is more efficient than stop-and-wait for high bandwidth delay product links
+bf=
+# Question 'bg': True or false: CRCs use a polynomial to produce a more robust error detection than a checksum
+bg=
+# Question 'bh': True or false: A switch is a multi-input multi-output device which transfers packets from an input to one or more outputs
+bh=
+# Question 'bi': True or false: 802.11 uses special frames to enable senders to reserve a short period of time in which they can send a frame
+bi=
+# Question 'bj': True or false: With NRZ encoding a signal of average voltage encodes a 0, otherwise a 1
+bj=
+# Question 'bk': True or false: Spread-spectrum makes interference worse, because the signal is spread over a wider frequency band, and thus can interfere with more frequencies
+bk=
+# Question 'bl': True or false: It is impossible to to produce network links that do not rely on electromagnetic radiation
+bl=
+# Question 'bm': True or false: The Sending Window Size and the Receiving Window Size can be different sizes
+bm=
+# Question 'bn': True or false: A piconet is a Bluetooth network consisting of one master device and up to 7 slave devices
+bn=
+# Question 'bo': True or false: 4B/5B encoding cannot encode certain 5 bit input sequences, because they contain too many consecutive 1s or 0s
+bo=
+# Question 'bp': True or false: Tightening bandwidth implies a more efficient, faster network
+bp=
+# Question 'bq': True or false: Frequency allocations for wireless communications are made by government agencies in most countries
+bq=
+# Question 'br': True or false: The listen() function defines the number of pending connections that can be queued on a socket
+br=
+# Question 'bs': True or false: In packet-switched networks, data frames rather than data streams are transferred
+bs=
+# Question 'bt': True or false: 802.11g is backwards compatible with 802.11a
+bt=
+# Question 'bu': True or false: The network API is called by the operating system to connect to different applications
+bu=
+# Question 'bv': True or false: Only up to the network layer is required to run on all nodes in the OSI model
+bv=
+# Question 'bw': True or false: In 802.11, if both DS bits are set to 1, this means that the frame has been transferred over the maximum number of hops allowed by the distribution system: If another hop were required, the frame would be dropped
+bw=
+# Question 'bx': True or false: The Last Acknowledged Frame minus the Last Frame Sent is normally greater than +1 for the Sliding Window Protocol
+bx=
+# Question 'by': True or false: Each time an Ethernet adaptor tries to transmit but fails, it waits a random multiple of 51.2 micro seconds, where the maximum multiple increases with the number of failed transmission attempts
+by=
+# Question 'bz': True or false: It is the role of the Network Provider to design a cost-effective network with shareable resources
+bz=
+# Question 'ca': True or false: A bit transmitted at a speed of 1Mbps would have an effective width of 1 micro second
+ca=
+# Question 'cb': True or false: The hidden node problem occurs when a node transmits only occasionally, thus remaining hidden from other transmitters until it transmits
+cb=
+# Question 'cc': True or false: The baud rate of Manchester encoding is double the bit rate
+cc=
+# Question 'cd': True or false: If a sender does not receive an acknowledgement after a reasonable amount of time, it may re-transmit the original frame
+cd=
+# Question 'ce': True or false: Protocols must be inter-operable for them to serve their primary purpose
+ce=
+# Question 'cf': True or false: A unique socket number must be provided by the application when calling the socket() function to create a socket
+cf=
+# Question 'cg': True or false: The connect() function does not return until the TCP connection has been successfully established
+cg=
+# Question 'ch': True or false: Two-dimensional parity calculates both odd and even parity for each each byte to increase its strength
+ch=
+# Question 'ci': True or false: The Sliding Window protocol sends cumulative ACKs when frames have been received out of order
+ci=
+# Question 'cj': True or false: If two nodes send an RTS frame at the same time a collision occurs which cannot be detected on an 802.11 network
+cj=
+# Question 'ck': True or false: When any node receives a CTS frame, it must remain silent for the time required for a frame of the specified length to be transmitted
+ck=
+# Question 'cl': True or false: The aggregate throughput through a switch can never exceed the maximum bandwidth of each of its ports
+cl=
+# Question 'cm': True or false: Interference is a much greater problem for wireless communications than for modern cabled switched networks
+cm=
+# Question 'cn': True or false: Original Ethernet used cable similar to that of cable TV
+cn=
+# Question 'co': True or false: In 10BaseT, the T refers to the use of T-pieces to tap into the network
+co=
+# Question 'cp': True or false: With infinite latency, bandwidth dominates
+cp=
+# Question 'cq': True or false: The Last Acknowledgement Received plus the Sliding Window Size must be no larger than the Last Frame Sent
+cq=
+# Question 'cr': True or false: CRCs are used to detect errors
+cr=
+# Question 'cs': True or false: Servers normally listen for connections on any TCP port number
+cs=
+# Question 'ct': True or false: Wireless technologies offer substantially similar bandwidth and range of communications, because they all use the same transmission medium which has approximately constant properties
+ct=
+# Question 'cu': True or false: A logical channel is an application-to-application communication path
+cu=
+# Question 'cv': True or false: Wi-Fi supports power management and security mechanisms to optimise its function
+cv=
+# Question 'cw': True or false: The IP address must be discovered before an HTTP request can be made
+cw=
+# Question 'cx': True or false: 5G networks offer higher speed and lower latency compared with earlier generations
+cx=
