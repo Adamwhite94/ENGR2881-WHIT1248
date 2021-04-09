@@ -39,45 +39,45 @@ at=f
 # Question 'au': True or false: The topology of this network is a ring
 au=t
 # Question 'av': True or false: The topology of this network is a bus
-av=
+av=f
 # Question 'aw': True or false: The topology of this network is a line
-aw=
+aw=t
 # Question 'ax': True or false: The topology of this network is a wireless
-ax=
+ax=f
 # Question 'ay': True or false: The topology of this network is a line
-ay=
+ay=f
 # Question 'az': True or false: The topology of this network is a full mesh
-az=
+az=t
 # Question 'ba': True or false: The topology of this network is a wireless
-ba=
+ba=f
 # Question 'bb': True or false: The topology of this network is a bus
-bb=
+bb=f
 # Question 'bc': True or false: The topology of this network is a full mesh
-bc=
+bc=t
 # Question 'bd': True or false: The topology of this network is a ad-hoc
-bd=
+bd=t
 # Question 'be': True or false: The topology of this network is a tree
-be=
+be=f
 # Question 'bf': True or false: The topology of this network is a ring
-bf=
+bf=t
 # Question 'bg': True or false: The topology of this network is a line
-bg=
+bg=t
 # Question 'bh': True or false: The topology of this network is a wireless
-bh=
+bh=f
 # Question 'bi': True or false: The topology of this network is a tree
-bi=
+bi=t
 # Question 'bj': True or false: The topology of this network is a bus
-bj=
+bj=t
 # Question 'bk': True or false: The topology of this network is a line
-bk=
+bk=f
 # Question 'bl': True or false: The topology of this network is a ring
-bl=
+bl=t
 # Question 'bm': True or false: The topology of this network is a full mesh
-bm=
+bm=t
 # Question 'bn': True or false: The topology of this network is a ad-hoc
-bn=
+bn=f
 # Question 'bo': True or false: The topology of this network is a full mesh
-bo=
+bo=f
 # Question 'bp': Define a network that consists of a ad-hoc network and a ring network connected by a laptop}
 BEGIN:bp
 END:bp
