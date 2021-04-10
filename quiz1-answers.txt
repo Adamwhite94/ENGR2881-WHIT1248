@@ -2,13 +2,13 @@
 # Question 'ab': True or false: The data link layer transfers data frames
 ab=t
 # Question 'ac': True or false: Switches can be interconnected to form larger networks
-ac=
+ac=t
 # Question 'ad': True or false: If an Ethernet is idle, a node with a frame to send will wait a short random period of time before sending the frame, to help avoid packet collisions
-ad=
+ad=t
 # Question 'ae': True or false: Very strong transmission error detection can normally be provided using very few additional bits compared with the size of the data
-ae=
+ae=t
 # Question 'af': True or false: Fibre-optics typically uses frequencies that are in the X-Ray band
-af=
+af=t
 # Question 'ag': True or false: The combination of the virtual circuit identifier and incoming port number uniquely identifies the virtual circuit to a switch
 ag=
 # Question 'ah': True or false: Switches can implement either datagram or virtual circuit approaches
