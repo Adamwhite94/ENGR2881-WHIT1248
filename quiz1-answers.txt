@@ -48,43 +48,43 @@ ax=t
 # Question 'ay': True or false: Error detection bits work by adding new information to the message
 ay=t
 # Question 'az': True or false: A separate Ethernet cable was required to connect each additional device on Original Ethernet
-az=
+az=t
 # Question 'ba': True or false: In a layered network model, the application layer or equivalent must be at the top of the stack of layers
-ba=
+ba=t
 # Question 'bb': True or false: The Sliding Window protocol uses sequence numbers to allow multiple unacknowledged frames at any point in time
-bb=
+bb=t
 # Question 'bc': True or false: Devices that use license-exempt frequencies still face certain restrictions on their use of those license-exempt frequencies
-bc=
+bc=t
 # Question 'bd': True or false: Switching and forwarding relies on either one of hosts or ports having unique identifiers
-bd=
+bd=t
 # Question 'be': True or false: An acknowledgement is sent whenever a peer is ready to receive a frame
-be=
+be=t
 # Question 'bf': True or false: The Sliding Window protocol is more efficient than stop-and-wait for high bandwidth delay product links
-bf=
+bf=t
 # Question 'bg': True or false: CRCs use a polynomial to produce a more robust error detection than a checksum
-bg=
+bg=t
 # Question 'bh': True or false: A switch is a multi-input multi-output device which transfers packets from an input to one or more outputs
-bh=
+bh=t
 # Question 'bi': True or false: 802.11 uses special frames to enable senders to reserve a short period of time in which they can send a frame
-bi=
+bi=f
 # Question 'bj': True or false: With NRZ encoding a signal of average voltage encodes a 0, otherwise a 1
-bj=
+bj=f
 # Question 'bk': True or false: Spread-spectrum makes interference worse, because the signal is spread over a wider frequency band, and thus can interfere with more frequencies
-bk=
+bk=t
 # Question 'bl': True or false: It is impossible to to produce network links that do not rely on electromagnetic radiation
-bl=
+bl=t
 # Question 'bm': True or false: The Sending Window Size and the Receiving Window Size can be different sizes
-bm=
+bm=t
 # Question 'bn': True or false: A piconet is a Bluetooth network consisting of one master device and up to 7 slave devices
-bn=
+bn=t
 # Question 'bo': True or false: 4B/5B encoding cannot encode certain 5 bit input sequences, because they contain too many consecutive 1s or 0s
-bo=
+bo=t
 # Question 'bp': True or false: Tightening bandwidth implies a more efficient, faster network
-bp=
+bp=f
 # Question 'bq': True or false: Frequency allocations for wireless communications are made by government agencies in most countries
-bq=
+bq=t
 # Question 'br': True or false: The listen() function defines the number of pending connections that can be queued on a socket
-br=
+br=f
 # Question 'bs': True or false: In packet-switched networks, data frames rather than data streams are transferred
 bs=
 # Question 'bt': True or false: 802.11g is backwards compatible with 802.11a
