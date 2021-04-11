@@ -10,21 +10,21 @@ ae=t
 # Question 'af': True or false: Fibre-optics typically uses frequencies that are in the X-Ray band
 af=t
 # Question 'ag': True or false: The combination of the virtual circuit identifier and incoming port number uniquely identifies the virtual circuit to a switch
-ag=
+ag=t
 # Question 'ah': True or false: Switches can implement either datagram or virtual circuit approaches
-ah=
+ah=t
 # Question 'ai': True or false: BISYNC is a byte-oriented framing protocol
-ai=
+ai=f
 # Question 'aj': True or false: When a packet is sent on a connectionless network, the sender has to provide the information for the path the packet should take
-aj=
+aj=t
 # Question 'ak': True or false: 802.11 cannot be used to form ad-hoc wireless networks
-ak=
+ak=f
 # Question 'al': True or false: In 802.11, clients send association requests to connect to a given access point
-al=
+al=t
 # Question 'am': True or false: The send() function is used to send data or a message over a socket
-am=
+am=t
 # Question 'an': True or false: When two Ethernet devices attempt to transmit at the same time, the result is collision
-an=
+an=t
 # Question 'ao': True or false: The Sliding Window protocol tends to slow down if packets are lost
 ao=
 # Question 'ap': True or false: Placing binary data on a signal is called multi-plexing
