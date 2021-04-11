@@ -26,27 +26,27 @@ am=t
 # Question 'an': True or false: When two Ethernet devices attempt to transmit at the same time, the result is collision
 an=t
 # Question 'ao': True or false: The Sliding Window protocol tends to slow down if packets are lost
-ao=
+ao=t
 # Question 'ap': True or false: Placing binary data on a signal is called multi-plexing
-ap=
+ap=t
 # Question 'aq': True or false: In 802.11, the duration field is used to indicate whether a frame has already been forwarded via a distribution system or not
-aq=
+aq=t
 # Question 'ar': True or false: HDLC uses a sequence of exactly six consecutive 1s to indicate the end of a frame
-ar=
+ar=t
 # Question 'as': True or false: Two-dimensional parity is able to catch all 1, 2, 3 and 4 bit errors.
-as=
+as=f
 # Question 'at': True or false: For very small amounts of data the propagation time is more important than the transmission speed
-at=
+at=f
 # Question 'au': True or false: Switches rely on the contents of packets to get the information required to make switching and forwarding decisions
-au=
+au=t
 # Question 'av': True or false: DSL and fibre-to-the-home connections have overlapping speed ranges
-av=
+av=t
 # Question 'aw': True or false: The 802.11 distribution system operates at layer 3 of the ISO architecture
-aw=
+aw=f
 # Question 'ax': True or false: Frequency Division Multiplexing changes the rate of time slots used to share a network link
-ax=
+ax=t
 # Question 'ay': True or false: Error detection bits work by adding new information to the message
-ay=
+ay=t
 # Question 'az': True or false: A separate Ethernet cable was required to connect each additional device on Original Ethernet
 az=
 # Question 'ba': True or false: In a layered network model, the application layer or equivalent must be at the top of the stack of layers
