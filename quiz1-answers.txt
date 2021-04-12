@@ -86,13 +86,13 @@ bq=t
 # Question 'br': True or false: The listen() function defines the number of pending connections that can be queued on a socket
 br=f
 # Question 'bs': True or false: In packet-switched networks, data frames rather than data streams are transferred
-bs=
+bs=f
 # Question 'bt': True or false: 802.11g is backwards compatible with 802.11a
-bt=
+bt=f
 # Question 'bu': True or false: The network API is called by the operating system to connect to different applications
-bu=
+bu=t
 # Question 'bv': True or false: Only up to the network layer is required to run on all nodes in the OSI model
-bv=
+bv=f
 # Question 'bw': True or false: In 802.11, if both DS bits are set to 1, this means that the frame has been transferred over the maximum number of hops allowed by the distribution system: If another hop were required, the frame would be dropped
 bw=
 # Question 'bx': True or false: The Last Acknowledged Frame minus the Last Frame Sent is normally greater than +1 for the Sliding Window Protocol
