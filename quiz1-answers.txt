@@ -96,19 +96,19 @@ bv=f
 # Question 'bw': True or false: In 802.11, if both DS bits are set to 1, this means that the frame has been transferred over the maximum number of hops allowed by the distribution system: If another hop were required, the frame would be dropped
 bw=
 # Question 'bx': True or false: The Last Acknowledged Frame minus the Last Frame Sent is normally greater than +1 for the Sliding Window Protocol
-bx=
+bx=t
 # Question 'by': True or false: Each time an Ethernet adaptor tries to transmit but fails, it waits a random multiple of 51.2 micro seconds, where the maximum multiple increases with the number of failed transmission attempts
-by=
+by=t
 # Question 'bz': True or false: It is the role of the Network Provider to design a cost-effective network with shareable resources
-bz=
+bz=t
 # Question 'ca': True or false: A bit transmitted at a speed of 1Mbps would have an effective width of 1 micro second
-ca=
+ca=t
 # Question 'cb': True or false: The hidden node problem occurs when a node transmits only occasionally, thus remaining hidden from other transmitters until it transmits
-cb=
+cb=f
 # Question 'cc': True or false: The baud rate of Manchester encoding is double the bit rate
-cc=
+cc=t
 # Question 'cd': True or false: If a sender does not receive an acknowledgement after a reasonable amount of time, it may re-transmit the original frame
-cd=
+cd=t
 # Question 'ce': True or false: Protocols must be inter-operable for them to serve their primary purpose
 ce=
 # Question 'cf': True or false: A unique socket number must be provided by the application when calling the socket() function to create a socket
