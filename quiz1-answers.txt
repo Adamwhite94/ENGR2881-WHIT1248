@@ -94,7 +94,7 @@ bu=t
 # Question 'bv': True or false: Only up to the network layer is required to run on all nodes in the OSI model
 bv=f
 # Question 'bw': True or false: In 802.11, if both DS bits are set to 1, this means that the frame has been transferred over the maximum number of hops allowed by the distribution system: If another hop were required, the frame would be dropped
-bw=
+bw=t
 # Question 'bx': True or false: The Last Acknowledged Frame minus the Last Frame Sent is normally greater than +1 for the Sliding Window Protocol
 bx=t
 # Question 'by': True or false: Each time an Ethernet adaptor tries to transmit but fails, it waits a random multiple of 51.2 micro seconds, where the maximum multiple increases with the number of failed transmission attempts
@@ -110,42 +110,42 @@ cc=t
 # Question 'cd': True or false: If a sender does not receive an acknowledgement after a reasonable amount of time, it may re-transmit the original frame
 cd=t
 # Question 'ce': True or false: Protocols must be inter-operable for them to serve their primary purpose
-ce=
+ce=t
 # Question 'cf': True or false: A unique socket number must be provided by the application when calling the socket() function to create a socket
-cf=
+cf=t
 # Question 'cg': True or false: The connect() function does not return until the TCP connection has been successfully established
-cg=
+cg=t
 # Question 'ch': True or false: Two-dimensional parity calculates both odd and even parity for each each byte to increase its strength
-ch=
+ch=f
 # Question 'ci': True or false: The Sliding Window protocol sends cumulative ACKs when frames have been received out of order
-ci=
+ci=f
 # Question 'cj': True or false: If two nodes send an RTS frame at the same time a collision occurs which cannot be detected on an 802.11 network
-cj=
+cj=f
 # Question 'ck': True or false: When any node receives a CTS frame, it must remain silent for the time required for a frame of the specified length to be transmitted
-ck=
+ck=t
 # Question 'cl': True or false: The aggregate throughput through a switch can never exceed the maximum bandwidth of each of its ports
-cl=
+cl=t
 # Question 'cm': True or false: Interference is a much greater problem for wireless communications than for modern cabled switched networks
-cm=
+cm=t
 # Question 'cn': True or false: Original Ethernet used cable similar to that of cable TV
-cn=
+cn=t
 # Question 'co': True or false: In 10BaseT, the T refers to the use of T-pieces to tap into the network
-co=
+co=f
 # Question 'cp': True or false: With infinite latency, bandwidth dominates
-cp=
+cp=f
 # Question 'cq': True or false: The Last Acknowledgement Received plus the Sliding Window Size must be no larger than the Last Frame Sent
-cq=
+cq=t
 # Question 'cr': True or false: CRCs are used to detect errors
-cr=
+cr=t
 # Question 'cs': True or false: Servers normally listen for connections on any TCP port number
-cs=
+cs=t
 # Question 'ct': True or false: Wireless technologies offer substantially similar bandwidth and range of communications, because they all use the same transmission medium which has approximately constant properties
-ct=
+ct=f
 # Question 'cu': True or false: A logical channel is an application-to-application communication path
-cu=
+cu=t
 # Question 'cv': True or false: Wi-Fi supports power management and security mechanisms to optimise its function
-cv=
+cv=t
 # Question 'cw': True or false: The IP address must be discovered before an HTTP request can be made
-cw=
+cw=t
 # Question 'cx': True or false: 5G networks offer higher speed and lower latency compared with earlier generations
-cx=
+cx=t
