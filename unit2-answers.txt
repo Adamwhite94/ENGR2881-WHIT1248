@@ -14,7 +14,7 @@ ag=t
 # Question 'ah': True or false: The close() function for the C programming language can be called by either the initiator or receiver of a socket connection.
 ah=f
 # Question 'ai': True or false: The close() function for the C programming language closes a server's socket and all open connections created by that socket.
-ai=f
+ai=t
 # Question 'aj': True or false: The write() function for the C programming language is used to write the address information into a socket.
 aj=t
 # Question 'ak': True or false: The connect() function for the C programming language is used by a server to connect to a client
@@ -30,14 +30,14 @@ ao=t
 # Question 'ap': True or false: A network socket usually contains addressing information for layer 3, but not layer 4
 ap=f
 ## Correct the lines in the supplied programme
-aq=1
-ar=3
-as=5
-at=8
-au=4
-av=2
-aw=7
-ax=9
+aq=3
+ar=5
+as=2
+at=9
+au=1
+av=4
+aw=8
+ax=7
 ay=6
 ## Correct the lines in the supplied programme
 az=9
