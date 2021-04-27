@@ -10,13 +10,13 @@ ae=f
 # Question 'af': True or false: The send() function for the C programming language performs the same function as write(), but without the possibility to set flags.
 af=t
 # Question 'ag': True or false: The socket() function for the C programming language requires a network address, to be able to create a socket.
-ag=t
+ag=f
 # Question 'ah': True or false: The close() function for the C programming language can be called by either the initiator or receiver of a socket connection.
-ah=f
+ah=t
 # Question 'ai': True or false: The close() function for the C programming language closes a server's socket and all open connections created by that socket.
 ai=t
 # Question 'aj': True or false: The write() function for the C programming language is used to write the address information into a socket.
-aj=t
+aj=f
 # Question 'ak': True or false: The connect() function for the C programming language is used by a server to connect to a client
 ak=t
 # Question 'al': True or false: The bind() function for the C programming language connects a network address to a network address
@@ -24,11 +24,11 @@ al=f
 # Question 'am': True or false: The socket() function for the C programming language can create sockets for various network protocols.
 am=t
 # Question 'an': True or false: A network socket includes port numbers as well as IP addresses
-an=t
+an=f
 # Question 'ao': True or false: The listen() function for the C programming language marks a socket as `passive', ready to accept new connections.
 ao=t
 # Question 'ap': True or false: A network socket usually contains addressing information for layer 3, but not layer 4
-ap=f
+ap=t
 ## Correct the lines in the supplied programme
 aq=3
 ar=5
