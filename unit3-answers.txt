@@ -80,9 +80,30 @@ bn=f
 bo=f
 # Question 'bp': Define a network that consists of a ad-hoc network and a ring network connected by a laptop}
 BEGIN:bp
+laptop2 laptop5
+laptop2 node7
+laptop5 laptop3
+laptop5 laptop2
+laptop5 laptop4
+node7 computer1
+node7 computer2
+node7 computer3
+node7 computer4
+node7 computer5
+node7 computer6
 END:bp
 # Question 'bq': Define a network that consists of a tree network and a ad-hoc network connected by a router}
 BEGIN:bq
+node2 computer1
+node2 bus6
+router1 switch2:0
+node3 laptop2
+node3 laptop3
+node3 laptop4
+router2 laptop5
+router2 laptop5
+router2 laptop5
+router2 laptop5
 END:bq
 # Question 'br': Define a network that consists of a ring network and a line network connected by a bus}
 BEGIN:br
