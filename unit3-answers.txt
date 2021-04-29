@@ -83,23 +83,24 @@ BEGIN:bp
 laptop2 laptop5
 laptop2 node7
 laptop5 laptop3
-laptop5 laptop2
-laptop5 laptop4
-node7 computer1
-node7 computer2
-node7 computer3
-node7 computer4
-node7 computer5
-node7 computer6
+laptop3 laptop4
+laptop4 laptop2
+laptop2 computer1
+computer1 computer2
+computer1 computer6
+computer3 computer2
+computer3 computer4
+computer5 computer6
+computer5 computer4
 END:bp
 # Question 'bq': Define a network that consists of a tree network and a ad-hoc network connected by a router}
 BEGIN:bq
-node2 computer1
 node2 bus6
+router1 bus6
 router1 switch2:0
-node3 laptop2
-node3 laptop3
-node3 laptop4
+switch2:0 laptop2
+switch2:0 laptop3
+switch2:0 laptop4
 router2 laptop5
 router2 laptop5
 router2 laptop5
@@ -107,9 +108,20 @@ router2 laptop5
 END:bq
 # Question 'br': Define a network that consists of a ring network and a line network connected by a bus}
 BEGIN:br
+laptop3 laptop4
+laptop4 laptop5
+laptop5 laptop6
+laptop6 laptop7
+laptop7 laptop8
+node6 bus6
+node2 laptop9
+node2 laptop10
+node2 laptop11
+node2 laptop12
 END:br
 # Question 'bs': Define a network that consists of a full mesh network and a full mesh network connected by a router}
 BEGIN:bs
+
 END:bs
 # Question 'bt': Define a network that consists of a line network and a full mesh network connected by a bus}
 BEGIN:bt
