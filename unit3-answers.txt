@@ -121,40 +121,187 @@ node2 laptop12
 END:br
 # Question 'bs': Define a network that consists of a full mesh network and a full mesh network connected by a router}
 BEGIN:bs
-
+node1 node2
+node1 node5
+node3 node2
+node3 node4
+node4 node5
+node4 node3
+node2 node5
+node2 node4
+node3 node1
+router1 node1
+node10 node11
+node10 node14
+node12 node11
+node12 node13
+node13 node12
+node13 node14
+node11 node14
+node11 node13
+node10 node12
 END:bs
 # Question 'bt': Define a network that consists of a line network and a full mesh network connected by a bus}
 BEGIN:bt
+node2 laptop9
+node2 laptop10
+node2 laptop11
+node2 laptop12
+node2 bus6
+bus6 node1
+node1 node2
+node1 node5
+node3 node2
+node3 node4
+node4 node5
+node4 node3
+node2 node5
+node2 node4
+node3 node1
 END:bt
 # Question 'bu': Define a network that consists of a line network and a full mesh network connected by a bus}
 BEGIN:bu
+node2 laptop9
+node2 laptop10
+node2 laptop11
+node2 laptop12
+node2 bus6
+bus6 node1
+node1 node2
+node1 node5
+node3 node2
+node3 node4
+node4 node5
+node4 node3
+node2 node5
+node2 node4
+node3 node1
 END:bu
 # Question 'bv': Define a network that consists of a tree network and a star network connected by a node}
 BEGIN:bv
+node2 bus6
+router1 bus6
+router1 switch2:0
+switch2:0 laptop2
+switch2:0 laptop3
+switch2:0 laptop4
+node3 bus6
+node3 node4
+node4 laptop5
+node4 laptop6
+node4 laptop7
+node4 laptop8
+node4 laptop9
 END:bv
 # Question 'bw': Define a network that consists of a bus network and a ad-hoc network connected by a laptop}
 BEGIN:bw
+bus6 node1
+bus6 node2
+bus6 node4
+bus6 node4
+bus6 laptop4
+laptop4 laptop3
+laptop3 laptop2
+laptop2 laptop1
 END:bw
 # Question 'bx': Define a network that consists of a ring network and a ring network connected by a switch}
 BEGIN:bx
+laptop3 laptop4
+laptop4 laptop5
+laptop5 laptop6
+laptop6 laptop7
+laptop7 laptop8
+switch1 laptop8
+laptop9 laptop10
+laptop11 laptop12
+laptop13 laptop14
+laptop15 laptop16
+laptop17 laptop18
 END:bx
 # Question 'by': Define a network that consists of a tree network and a ad-hoc network connected by a laptop}
 BEGIN:by
+node2 bus6
+router1 bus6
+router1 switch2:0
+switch2:0 laptop2
+switch2:0 laptop3
+switch2:0 laptop4
+bus6 laptop5
+laptop5 laptop6
+laptop6 laptop7
+laptop7 laptop8
+laptop8 laptop9
 END:by
 # Question 'bz': Define a network that consists of a tree network and a star network connected by a node}
 BEGIN:bz
+node2 bus6
+router1 bus6
+router1 switch2:0
+switch2:0 laptop2
+switch2:0 laptop3
+switch2:0 laptop4
+bus6 node3
+node3 laptop5
+node3 laptop6
+node3 laptop7
+node3 laptop8
+node3 laptop9
 END:bz
 # Question 'ca': Define a network that consists of a tree network and a ring network connected by a switch}
 BEGIN:ca
+node2 bus6
+router1 bus6
+router1 switch2:0
+switch2:0 laptop2
+switch2:0 laptop3
+switch2:0 laptop4
+bus6 switch1
+switch1 laptop5
+laptop5 laptop6
+laptop6 laptop7
+laptop7 laptop8
+laptop8 laptop9
 END:ca
 # Question 'cb': Define a network that consists of a ring network and a wireless network connected by a node}
 BEGIN:cb
+switch1 laptop5
+laptop5 laptop6
+laptop6 laptop7
+laptop7 laptop8
+laptop8 laptop9
+node1 ap1
+ap1 laptop1
+ap1 laptop2
+ap1 laptop3
 END:cb
 # Question 'cc': Define a network that consists of a tree network and a star network connected by a laptop}
 BEGIN:cc
+node2 bus6
+router1 bus6
+router1 switch2:0
+switch2:0 laptop2
+switch2:0 laptop3
+switch2:0 laptop4
+bus6 node3
+node3 laptop5
+node3 laptop6
+node3 laptop7
+node3 laptop8
+node3 laptop9
 END:cc
 # Question 'cd': Define a network that consists of a star network and a line network connected by a switch}
 BEGIN:cd
+node3 laptop5
+node3 laptop6
+node3 laptop7
+node3 laptop8
+node3 laptop9
+laptop9 switch2:0
+switch2:0 node2
+laptop10 laptop11
+laptop11 laptop12
+laptop12 laptop13
+laptop13 laptop14
 END:cd
 # Question 'ce': Define a network that consists of a wireless network and a bus network connected by a laptop}
 BEGIN:ce
