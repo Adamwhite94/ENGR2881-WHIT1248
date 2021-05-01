@@ -101,10 +101,10 @@ router1 switch2:0
 switch2:0 laptop2
 switch2:0 laptop3
 switch2:0 laptop4
-router2 laptop5
-router2 laptop5
-router2 laptop5
-router2 laptop5
+ap1 laptop5
+ap1 laptop6
+ap1 laptop7
+ap1 laptop8
 END:bq
 # Question 'br': Define a network that consists of a ring network and a line network connected by a bus}
 BEGIN:br
@@ -197,7 +197,7 @@ END:bv
 BEGIN:bw
 bus6 node1
 bus6 node2
-bus6 node4
+bus6 node3
 bus6 node4
 bus6 laptop4
 laptop4 laptop3
@@ -305,20 +305,77 @@ laptop13 laptop14
 END:cd
 # Question 'ce': Define a network that consists of a wireless network and a bus network connected by a laptop}
 BEGIN:ce
+ap1 laptop1
+ap1 laptop2
+ap1 laptop3
+ap1 laptop4
+laptop4 bus6
+bus6 node1
+bus6 node2
+bus6 node4
+bus6 node4
 END:ce
 # Question 'cf': Define a network that consists of a tree network and a wireless network connected by a switch}
 BEGIN:cf
+node2 bus6
+router1 bus6
+router1 switch2:0
+switch2:0 laptop2
+switch2:0 laptop3
+switch2:0 laptop4
+switch3:0 bus6
+switch3:0 ap1
+ap1 laptop1
+ap1 laptop2
+ap1 laptop3
+ap1 laptop4
 END:cf
 # Question 'cg': Define a network that consists of a bus network and a ring network connected by a switch}
 BEGIN:cg
+bus6 node1
+bus6 node2
+bus6 node3
+bus6 node4
+bus6 laptop1
+laptop1 laptop2
+laptop2 laptop3
+laptop3 laptop4
+laptop4 laptop5
 END:cg
 # Question 'ch': Define a network that consists of a full mesh network and a ad-hoc network connected by a laptop}
 BEGIN:ch
+node1 node2
+node1 node5
+node3 node2
+node3 node4
+node4 node5
+node4 node3
+node2 node5
+node2 node4
+node3 node1
+node5 laptop4
+laptop4 ap1
+ap1 laptop5
+ap1 laptop6
+ap1 laptop7
+ap1 laptop8
 END:ch
 # Question 'ci': Define a network that consists of a ring network and a line network connected by a switch}
 BEGIN:ci
+laptop4 laptop5
+laptop5 laptop6
+laptop6 laptop7
+laptop7 laptop8
+laptop8 laptop9
+laptop9 switch2:0
+switch2:0 node2
+node2 laptop9
+node2 laptop10
+node2 laptop11
+node2 laptop12
 END:ci
 # Question 'cj': Define a network layout that would be suitable for a Client-Server architecture}
+
 BEGIN:cj
 END:cj
 # Question 'ck': Describe your network layout that would be suitable for a Client-Server architecture
