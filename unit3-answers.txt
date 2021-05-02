@@ -375,38 +375,52 @@ node2 laptop11
 node2 laptop12
 END:ci
 # Question 'cj': Define a network layout that would be suitable for a Client-Server architecture}
-
 BEGIN:cj
+ap1 laptop1
+ap1 laptop2
+ap1 laptop3
+node ap1
 END:cj
 # Question 'ck': Describe your network layout that would be suitable for a Client-Server architecture
 BEGIN:ck
+3 laptops connect wirelessly too a wifi access point, the wifi access point is then connected too a node or server computer
 END:ck
 # Question 'cl': Define a network layout that would be suitable for a Peer-to-Peer architecture}
 BEGIN:cl
+node1 node2
+node1 node5
+node3 node2
+node3 node4
+node4 node5
+node4 node3
+node2 node5
+node2 node4
+node3 node1
 END:cl
 # Question 'cm': Describe your peer-to-peer network topology.
 BEGIN:cm
+Peer to peer networks are full mesh networks, in this case all computers within the network connect too two other computers
 END:cm
 ## Write statements that are true or false for various lecture slides.
 # Question 'cn': Do you grant your following quiz questions to the public domain?
-cn=
+cn=Yes
 # Question 'co': Write a false statement about the content of Slide 9 of Chapter 1
-co=
+co=Circuit switched networks and packet switched networks serve the same purpose
 # Question 'cp': Write a false statement about the content of Slide 133 of Chapter 2
-cp=
+cp=The beacon frame does not advertise the capabilities of the access point
 # Question 'cq': Write a false statement about the content of Slide 135 of Chapter 2
-cq=
+cq=When one node is sending directly to another, both the DS bits are 1 
 # Question 'cr': Write a true statement about the content of Slide 37 of Chapter 4
-cr=
+cr=Slide 37 talks about optimizing packet transfer by eliminating duplicates
 # Question 'cs': Write a false statement about the content of Slide 21 of Chapter 3
-cs=
+cs=Whenever a new connection is established, a new VCI does not need to be declared
 # Question 'ct': Write a false statement about the content of Slide 35 of Chapter 2
-ct=
+ct=When implementing error detection, redudundent information is removed.
 # Question 'cu': Write a true statement about the content of Slide 18 of Chapter 1
-cu=
+cu=Protocols is the blanket term for the interaction between the service interface and the peer-to-peer interface
 # Question 'cv': Write a true statement about the content of Slide 60 of Chapter 2
-cv=
+cv=The stop and wait protocol is an efficient way too minimize collision
 # Question 'cw': Write a true statement about the content of Slide 105 of Chapter 3
-cw=
+cw=The distance vector algorithim needs work in optimizing the amount of messages that need to be updated in the tables
 # Question 'cx': Write a true statement about the content of Slide 36 of Chapter 2
-cx=
+cx=A client is just an open message requiring a connection too properly function, it also defines who it wants to connect with
