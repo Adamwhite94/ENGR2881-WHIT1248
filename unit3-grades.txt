@@ -1,18 +1,18 @@
 unit3 PROVISIONAL GRADE: F
 
-NOTE: Changes made after Sun May 2 01:50:17 2021 +0930 have not yet been graded.
+NOTE: Changes made after Mon May 3 15:02:14 2021 +0930 have not yet been graded.
 
 SUMMARY: 40 true/false and yes/no questions: 23 correct, 17 incorrect.
          (Incorrect answers cannot be shown, as that would immediately tell you how to get 100% ;)
          1 normal questions, 0 correct.
-         34 long-form questions, grade distribution: Ix33 Fx0 Px1 CRx0 DNx0 HDx0
+         34 long-form questions, grade distribution: Ix22 Fx1 Px3 CRx2 DNx0 HDx6
 
-ANSWERS GRADED I:  bp bq bs bt bu bv bw bx by bz ca cb cc cd ce cf cg ch ci cj ck cl cm cn co cp cq cr cs ct cu cv cw cx
-ANSWERS GRADED F: 
-ANSWERS GRADED P:  br
-ANSWERS GRADED CR:
+ANSWERS GRADED I:  bp bs bt bu by cf cg ch cj ck cl cm cn co cp cq cr cs ct cu cv cw cx
+ANSWERS GRADED F:  bx
+ANSWERS GRADED P:  bq br cb
+ANSWERS GRADED CR: ca ci
 ANSWERS GRADED DN:
-ANSWERS GRADED HD:
+ANSWERS GRADED HD: bv bw bz cc cd ce
 
 NOTE: You have one or more answers classified as 'I', which means 'Incomplete.'
       This can either mean that you haven't supplied an answer to those questions yet,
