@@ -1,0 +1,34 @@
+## Demonstrate an understanding of current methods for secure information transfer}
+# Question 'ab': Write not more than 250 words about 'assymetric encryption'
+BEGIN:ab
+END:ab
+# Question 'ac': Write not more than 250 words about 'political/commercial impacts on digital security'
+BEGIN:ac
+END:ac
+## Demonstrate an understanding of emerging methods for secure information transfer}
+# Question 'ad': Write not more than 250 words about any of the items on the timeline at https://www.feistyduck.com/ssl-tls-and-pki-history/
+BEGIN:ad
+END:ad
+## Write statements that are true or false for various lecture slides.
+## Write statements that are true or false for various lecture slides.
+ae=
+# Question 'af': Write a false statement about the content of Slide 94 of Chapter 2
+af=
+# Question 'ag': Write a false statement about the content of Slide 16 of Chapter 2
+ag=
+# Question 'ah': Write a false statement about the content of Slide 40 of Chapter 2
+ah=
+# Question 'ai': Write a true statement about the content of Slide 6 of Chapter 3
+ai=
+# Question 'aj': Write a true statement about the content of Slide 14 of Chapter 3
+aj=
+# Question 'ak': Write a false statement about the content of Slide 29 of Chapter 4
+ak=
+# Question 'al': Write a true statement about the content of Slide 62 of Chapter 2
+al=
+# Question 'am': Write a false statement about the content of Slide 23 of Chapter 3
+am=
+# Question 'an': Write a true statement about the content of Slide 13 of Chapter 4
+an=
+# Question 'ao': Write a false statement about the content of Slide 118 of Chapter 3
+ao=
