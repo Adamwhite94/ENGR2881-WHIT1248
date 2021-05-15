@@ -1,6 +1,9 @@
 ## Demonstrate an understanding of current methods for secure information transfer}
 # Question 'ab': Write not more than 250 words about 'assymetric encryption'
 BEGIN:ab
+Assymetric encryption is the process of using too unique but related keys called the public and private key. In this case the public key is used for encryption and the private key is used for decryption, which means implied by the name that private key is kept secret by the user so that only they can decrypt the message. These key pairs are generated using a mathmatical function commonly referred too as the key generation protocol, both keys are mathmatically connected too eachother. 
+The key generation protocol is the combination of the encryption and decryption protocol.
+Public and private keys are completely random and completely unpredictable, meaning that it would take modern computers thousands of years to generate.
 END:ab
 # Question 'ac': Write not more than 250 words about 'political/commercial impacts on digital security'
 BEGIN:ac
