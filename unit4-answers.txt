@@ -1,16 +1,20 @@
 ## Demonstrate an understanding of current methods for secure information transfer}
 # Question 'ab': Write not more than 250 words about 'assymetric encryption'
 BEGIN:ab
-Assymetric encryption is the process of using too unique but related keys called the public and private key. In this case the public key is used for encryption and the private key is used for decryption, which means implied by the name that private key is kept secret by the user so that only they can decrypt the message. These key pairs are generated using a mathmatical function commonly referred too as the key generation protocol, both keys are mathmatically connected too eachother. 
+Asymmetric encryption is the process of using too unique but related keys called the public and private key. In this case the public key is used for encryption and the private key is used for decryption, which means implied by the name that private key is kept secret by the user so that only they can decrypt the message. These key pairs are generated using a mathematical function commonly referred too as the key generation protocol, both keys are mathematically connected too each other. 
 The key generation protocol is the combination of the encryption and decryption protocol.
 Public and private keys are completely random and completely unpredictable, meaning that it would take modern computers thousands of years to generate.
+The use case for this is more commonly seen in SSL/TSL communications in the sense that encrypted links are established when your browser decrypts the public key provided by the certificate installed on any website, this also goes the other way in the sense that any info sent too a website is encrypted by the websites private key.
+Another use case is in crypto currency, the user has a public key on an exchange which is used to buy currencies, but a private key inside of a wallet that only they can say and withdraw funds into, this is an example of a another key pair.
 END:ab
 # Question 'ac': Write not more than 250 words about 'political/commercial impacts on digital security'
 BEGIN:ac
+
 END:ac
 ## Demonstrate an understanding of emerging methods for secure information transfer}
 # Question 'ad': Write not more than 250 words about any of the items on the timeline at https://www.feistyduck.com/ssl-tls-and-pki-history/
 BEGIN:ad
+Firefox 83 introduces HTTPS only mode, this means that the user can browse the web as normal but firefox will upgrade web connections to be secure whenever possible. When entering a page that doesnt support HTTPS, firefox will display an error message that will explain too the user the security risks and asks whether or not the user wants to connect using HTTPS, it is also possible that by doing this some parts of web pages may not be available over HTTPS, meaning that they will not display or error, the solution being to disable HTTPS only for that specific website. This has been added because operating websites using a HTTP connection is outdated and can lead to hackers accessing sensitive information, hence the need to use HTTPS only to protect user data.
 END:ad
 ## Write statements that are true or false for various lecture slides.
 ## Write statements that are true or false for various lecture slides.
