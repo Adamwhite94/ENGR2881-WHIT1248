@@ -1,7 +1,7 @@
 ## Demonstrate an understanding of current methods for secure information transfer}
 # Question 'ab': Write not more than 250 words about 'assymetric encryption'
 BEGIN:ab
-Asymmetric encryption is the process of using too unique but related keys called the public and private key. In this case the public key is used for encryption and the private key is used for decryption, which means implied by the name that private key is kept secret by the user so that only they can decrypt the message. These key pairs are generated using a mathematical function commonly referred too as the key generation protocol, both keys are mathematically connected too each other. 
+Asymmetric encryption is the process of using two unique but related keys called the public and private key. In this case the public key is used for encryption and the private key is used for decryption, which means, implied by the name the   private key is kept secret by the user so that only they can decrypt the message. These key pairs are generated using a mathematical function commonly referred too as the key generation protocol, both keys are mathematically connected too each other. 
 The key generation protocol is the combination of the encryption and decryption protocol.
 Public and private keys are completely random and completely unpredictable, meaning that it would take modern computers thousands of years to generate.
 The use case for this is more commonly seen in SSL/TSL communications in the sense that encrypted links are established when your browser decrypts the public key provided by the certificate installed on any website, this also goes the other way in the sense that any info sent too a website is encrypted by the websites private key.
@@ -9,35 +9,39 @@ Another use case is in crypto currency, the user has a public key on an exchange
 END:ab
 # Question 'ac': Write not more than 250 words about 'political/commercial impacts on digital security'
 BEGIN:ac
-It is known that within the internet of things, if you are connected to some wifi source that your information can be hacked. This is especially problematic within political or commercial ground due too the sensitivity of the information at stake, first world political parties are almost completely reliant on technology for fundamental systems continuing too operate, for example the US uses extensive use of ICT to provide management, control and intelligence, information wars, and the use of various types of non-lethal weapons.
+It is known that within the internet of things, if you are connected to some wifi source that your information can be hacked. This is especially problematic within political or commercial ground due too the sensitivity of the information at stake, first world political parties are almost completely reliant on technology for fundamental systems continuing too operate, for example the US uses the use of ICT to provide management, control and intelligence, the war on information etc. Politics has impacts on digital security in other ways, for example digital security plays an extensive part in elections within some parts of the world, individuals can vote using digital ballots which can be compromised and have been compromised on record in the past.
 
-In the commercial sense network technologies are fundamental for operations such as  energy, transport, banking and finance, information and telecommunications, health care, emergency services, agriculture, nutrition, water.
+In the commercial sense network technologies are fundamental for operations such as  energy, transport, banking and finance, information and telecommunications, health care, emergency services, agriculture, nutrition, water, and without key systems these will cease to operate in major ways. There is no minor scale too the impact that commercial systems affect digital security, from the scale of user data being stolen, abused or sold, too major companies losing extensive financial amounts their is no winner.
+
+It is important that within these two sectors that all information is regularly updated too provide the best protection against an ever dangerous internet of things, most importantly too protect sensitive political or individual information that could be severely impactful if stolen.
 END:ac
 ## Demonstrate an understanding of emerging methods for secure information transfer}
 # Question 'ad': Write not more than 250 words about any of the items on the timeline at https://www.feistyduck.com/ssl-tls-and-pki-history/
 BEGIN:ad
-Firefox 83 introduces HTTPS only mode, this means that the user can browse the web as normal but firefox will upgrade web connections to be secure whenever possible. When entering a page that doesnt support HTTPS, firefox will display an error message that will explain too the user the security risks and asks whether or not the user wants to connect using HTTPS, it is also possible that by doing this some parts of web pages may not be available over HTTPS, meaning that they will not display or error, the solution being to disable HTTPS only for that specific website. This has been added because operating websites using a HTTP connection is outdated and can lead to hackers accessing sensitive information, hence the need to use HTTPS only to protect user data.
+Firefox 83 introduces HTTPS only mode, this means that the user can browse the web as normal but firefox will upgrade web connections to be secure whenever possible. When entering a page that doesnt support HTTPS, firefox will display an error message that will explain too the user the security risks and asks whether or not the user wants to connect using HTTPS, it is also possible that by doing this some parts of web pages may not be available over HTTPS, meaning that they will not display or error, the solution being to disable HTTPS only for that specific website. This has been added because operating websites using a HTTP connection is outdated and can lead to hackers accessing sensitive information, hence the need to use HTTPS only to protect user data. 
+Another interesting feature is in HTTPS only mode if a HTTP link is clicked on or manually entered, it is switched too HTTPS automatically.
+The HTTPS protocol is an upgrade from the HTTP protocol in the sense that an connection is established and takes place within an encrypted channel known as the SSL (secure sockets layer) certificate.
 END:ad
 ## Write statements that are true or false for various lecture slides.
 ## Write statements that are true or false for various lecture slides.
 ae=
 # Question 'af': Write a false statement about the content of Slide 94 of Chapter 2
-af=
+af= Frames will send regardless of line state, they all travel fine.
 # Question 'ag': Write a false statement about the content of Slide 16 of Chapter 2
-ag=
+ag= The manchester clock is an external clock, meaning that 0 is a low -> high transition and 1 is a high -> low transition 
 # Question 'ah': Write a false statement about the content of Slide 40 of Chapter 2
-ah=
+ah= If any transmitted data or the checksum is corrupted, new data is sent too a new checksum making sure an error never occurs.
 # Question 'ai': Write a true statement about the content of Slide 6 of Chapter 3
-ai=
+ai= A switch is essentially the joining links to form large scale networks.
 # Question 'aj': Write a true statement about the content of Slide 14 of Chapter 3
-aj=
+aj= A forwarding table is essential in storing information on where a packet should go inside of a network.
 # Question 'ak': Write a false statement about the content of Slide 29 of Chapter 4
-ak=
+ak= Online multiplayer games are just a group of connections routing too one host, so it is considered one too many.
 # Question 'al': Write a true statement about the content of Slide 62 of Chapter 2
-al=
+al= Without a denoted sequence number two variables "LFS", "LAR" will not function.
 # Question 'am': Write a false statement about the content of Slide 23 of Chapter 3
-am=
+am= A should just route through switch 3 straight into B
 # Question 'an': Write a true statement about the content of Slide 13 of Chapter 4
-an=
+an= Reducing loops greatly reduces congestion inside of a network, if the path can be optimal while achieving this, that is also a great achievement
 # Question 'ao': Write a false statement about the content of Slide 118 of Chapter 3
-ao=
+ao= Routers and switches can just be inserted manually with no specialized hardware.
