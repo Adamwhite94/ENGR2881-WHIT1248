@@ -9,7 +9,9 @@ Another use case is in crypto currency, the user has a public key on an exchange
 END:ab
 # Question 'ac': Write not more than 250 words about 'political/commercial impacts on digital security'
 BEGIN:ac
+It is known that within the internet of things, if you are connected to some wifi source that your information can be hacked. This is especially problematic within political or commercial ground due too the sensitivity of the information at stake, first world political parties are almost completely reliant on technology for fundamental systems continuing too operate, for example the US uses extensive use of ICT to provide management, control and intelligence, information wars, and the use of various types of non-lethal weapons.
 
+In the commercial sense network technologies are fundamental for operations such as  energy, transport, banking and finance, information and telecommunications, health care, emergency services, agriculture, nutrition, water.
 END:ac
 ## Demonstrate an understanding of emerging methods for secure information transfer}
 # Question 'ad': Write not more than 250 words about any of the items on the timeline at https://www.feistyduck.com/ssl-tls-and-pki-history/
