@@ -1,0 +1,151 @@
+## Quiz #2: Chapters 4 to 6
+# Question 'ab': True or false: TCP normally buffers enough bytes to fill a reasonable sized packet on the receive side, to reduce the number of times an application must poll for data
+ab=
+# Question 'ac': True or false: The role of Quality-of-Service is to ensure that sufficient bandwidth is available to network applications that have special needs, even if it means that latency must increase
+ac=
+# Question 'ad': True or false: Multicast in IP is structured as a many-to-many system
+ad=
+# Question 'ae': True or false: The Karn/Partridge algorithm discriminates between transmissions and retransmissions by setting a flag in the TCP header
+ae=
+# Question 'af': True or false: Each Autonomous System has exactly one border gateway
+af=
+# Question 'ag': True or false: Rate-based networking approaches seek to limit data transmission to a particular data rate, based on an feed-back of the data rate that the network and/or receiver can handle.
+ag=
+# Question 'ah': True or false: Unlike Randomised Early Detection (RED), DECBit is able to be used with TCP
+ah=
+# Question 'ai': True or false: Assuming a 10ms RTT, the 16-bit advertised window field of the TCP header is sufficient to keep a network link of upto about 26Mbit/sec full
+ai=
+# Question 'aj': True or false: Transit traffic is traffic that transits into an Autonomous System to reach a destination in that Autonomous System
+aj=
+# Question 'ak': True or false: Packet Scheduling is typically the mechanism by which Quality-of-Service policies are put into effect
+ak=
+# Question 'al': True or false: Transport protocols often have to contend with networks dropping messages
+al=
+# Question 'am': True or false: TCP will typically send a segment when it has the number of bytes required to fill a packet, the application has specifically requested it, or a timeout has occurred
+am=
+# Question 'an': True or false: UDP allows the multiplexing of traffic from multiple applications on a single host
+an=
+# Question 'ao': True or false: The Internet's topology in the early 1990s was a full-mesh network
+ao=
+# Question 'ap': True or false: Nagle's Algorithm is used in TCP to determine the optimal MSS for a connection
+ap=
+# Question 'aq': True or false: Congestion control exists to prevent senders from overrunning the capacity of receivers
+aq=
+# Question 'ar': True or false: Routers maintain a table of which specific port each multicast group's traffic should be forwarded to
+ar=
+# Question 'as': True or false: Routing Domains are typically placed within Autonomous Systems
+as=
+# Question 'at': True or false: The DEC Bit with a queue length of 1 is used to attempt to optimise the power of the network
+at=
+# Question 'au': True or false: The peak power of a network typically occurs well below the maximum load the network can handle
+au=
+# Question 'av': True or false: Routing Areas refer to the different algorithm areas in routing protocol design
+av=
+# Question 'aw': True or false: Border Gateway Protocol is the only inter-domain routing protocol
+aw=
+# Question 'ax': True or false: Border Gateway Protocol speakers can cancel previously advertised paths
+ax=
+# Question 'ay': True or false: Whenever a congestion window's worth of data has been acknowledged, the TCP congestion protcol will add one congestion window's worth of bytes to the congestion window size
+ay=
+# Question 'az': True or false: The TCP source port field is at offset 0 in the TCP header
+az=
+# Question 'ba': True or false: The SYN and FIN flags are used when establishing and terminating a TCP connection
+ba=
+# Question 'bb': True or false: TCP practices Congestion Avoidance rather than Congestion Control
+bb=
+# Question 'bc': True or false: Differentiated Services typically uses a label in a packet header to identify the traffic class
+bc=
+# Question 'bd': True or false: TCP uses a Congestion Window to limit how much data can be transmitted at a given time
+bd=
+# Question 'be': True or false: The congestion control protocol of TCP communicates the congestion window by setting the advertised window and flags in the TCP header to indicate that the value is for the congestion window
+be=
+# Question 'bf': True or false: Network flows are streams of related packets that flow through a given router 
+bf=
+# Question 'bg': True or false: The UDP header contains source port, destination port, checksum and length fields
+bg=
+# Question 'bh': True or false: "Differentiated Services" is a coarse-grained quality-of-service approach
+bh=
+# Question 'bi': True or false: Source-based Congestion Avoidance works by having routers provide a separate packet queue for each source
+bi=
+# Question 'bj': True or false: Modern routers allow setting the Jain's Fairness Index to control the fairness of congestion control
+bj=
+# Question 'bk': True or false: The RSpec of a flow is easier to define correctly than the TSpec
+bk=
+# Question 'bl': True or false: Admission Control is a mechanism in RSVP where the network decides if it can satisfy a request for a given quality-of-service. If not, the access is not permitted
+bl=
+# Question 'bm': True or false: Transport protocols typically allow the receiver to apply flow control
+bm=
+# Question 'bn': True or false: Multi-provider Internet topologies typically involve peering points
+bn=
+# Question 'bo': True or false: If the TCP Slow Start algorithm is re-started, the Congestion Threshold is reset to 0
+bo=
+# Question 'bp': True or false: Inter-domain routing exists to find optimal routes among the many supplied paths between destinations
+bp=
+# Question 'bq': True or false: Voice, video and remote control are examples of network applications where Quality-of-Service should work to minimise latency
+bq=
+# Question 'br': True or false: Mobile IP requires the use of tunnels or care-of addresses to deliver packets to mobile nodes
+br=
+# Question 'bs': True or false: Distance-Vector Multicast forwards received multicast packets received from any router on all outgoing links
+bs=
+# Question 'bt': True or false: Source-based Congestion Avoidance can also use other algorithms that rely on more than just the RTT, such as the advertised window size
+bt=
+# Question 'bu': True or false: Reverse Path Broadcast is used to prune networks that contain no members in a given multicast group
+bu=
+# Question 'bv': True or false: The Karn/Partridge algorithm works well only when there is sufficient variance in RTT times
+bv=
+# Question 'bw': True or false: The UDP protocol demultiplexes packets arriving at a host into separate queues for each application
+bw=
+# Question 'bx': True or false: Silly Window Syndrome occurs when a TCP implementation sends many very small segments, instead of waiting to collect enough data to fill a larger segment
+bx=
+# Question 'by': True or false: Quality-of-Service implies that some packets will be treated differently to others
+by=
+# Question 'bz': True or false: Large corporations are required to connect to multiple backbones to provide redundancy
+bz=
+# Question 'ca': True or false: The TSpec of a Flowspec describes the network service that has been requested
+ca=
+# Question 'cb': True or false: Multicast allows a sender to send only one packet, and have it be received my multiple recipients
+cb=
+# Question 'cc': True or false: Fair Queuing performs bit-by-bit interleaving of packets to ensure fair allocation of network bandwidth
+cc=
+# Question 'cd': True or false: Soft-state of network flows helps routers to better handle traffic from that flow
+cd=
+# Question 'ce': True or false: RPC is a protocol that sits on top of IP, similar to TCP and UDP
+ce=
+# Question 'cf': True or false: Congestion Collapse was implemented in TCP to improve network performance
+cf=
+# Question 'cg': True or false: Fairness of resource allocation in a network is often as important as effective utilisation of the network
+cg=
+# Question 'ch': True or false: Packets contend for a place in the transmission queue of a router
+ch=
+# Question 'ci': True or false: IPv6 addresses are not allocated on a geographic basis, because IPv6 offers enough addresses that this is not necessary
+ci=
+# Question 'cj': True or false: UDP provides a simple demultiplexer to support end-to-end communications
+cj=
+# Question 'ck': True or false: Multicast routing is the process by which multicast distribution trees are determined
+ck=
+# Question 'cl': True or false: Congestion in networks often occurs because a connected host has a faster local connection than some other part of the network, which then acts as a bottle-neck
+cl=
+# Question 'cm': True or false: Fair-Queuing maintains separate queues per network flow, to improve fairness
+cm=
+# Question 'cn': True or false: "Integrated Services" is a quality-of-service scheme for packet switched IP networks. It does not support reservations
+cn=
+# Question 'co': True or false: Internet Group Management Protcol (IGMP) is used to signal the intent to join or leave a multicast group on IPv4
+co=
+# Question 'cp': True or false: Source Specific Multicast offers improved one-to-many multicast support for IP
+cp=
+# Question 'cq': True or false: RSVP can be used for both unicast and multicast flows
+cq=
+# Question 'cr': True or false: The Jacobson/Karels algorithm uses a retransmission delay close to the estimated RTT when RTT variance is small, but which grows quickly as the variation in RTT grows
+cr=
+# Question 'cs': True or false: IPv6 headers are longer than IPv4 headers
+cs=
+# Question 'ct': True or false: TCP Fast Retransmit works by reducing the TCP retransmission timeout
+ct=
+# Question 'cu': True or false: Controlled Load Service in RSVP means that the network should control the volume of packets of that service that are admitted to the network
+cu=
+# Question 'cv': True or false: In FIFO queuing, the first packet received will be the first to be transmitted
+cv=
+# Question 'cw': True or false: Whenever the loss of a packet is detected, the TCP congestion control protocol will halve the congestion window size, but never reducing it below one full packet's worth of data
+cw=
+# Question 'cx': True or false: Congestion control and resource allocation can be viewed as different perspectives of the same problem
+cx=
