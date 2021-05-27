@@ -1,8 +1,8 @@
-unit3 PROVISIONAL GRADE: F
+unit3 PROVISIONAL GRADE: P
 
-NOTE: Changes made after Thu May 20 19:12:59 2021 +0930 have not yet been graded.
+NOTE: Changes made after Thu May 27 16:46:14 2021 +0930 have not yet been graded.
 
-SUMMARY: 40 true/false and yes/no questions: 23 correct, 17 incorrect.
+SUMMARY: 40 true/false and yes/no questions: 28 correct, 12 incorrect.
          (Incorrect answers cannot be shown, as that would immediately tell you how to get 100% ;)
          1 normal questions, 1 correct.
          34 long-form questions, grade distribution: Ix0 Fx2 Px3 CRx2 DNx0 HDx7
