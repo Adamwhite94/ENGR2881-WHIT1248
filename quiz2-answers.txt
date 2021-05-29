@@ -34,17 +34,17 @@ aq=t
 # Question 'ar': True or false: Routers maintain a table of which specific port each multicast group's traffic should be forwarded to
 ar=t
 # Question 'as': True or false: Routing Domains are typically placed within Autonomous Systems
-as=
+as=t
 # Question 'at': True or false: The DEC Bit with a queue length of 1 is used to attempt to optimise the power of the network
-at=
+at=t
 # Question 'au': True or false: The peak power of a network typically occurs well below the maximum load the network can handle
-au=
+au=t
 # Question 'av': True or false: Routing Areas refer to the different algorithm areas in routing protocol design
-av=
+av=f
 # Question 'aw': True or false: Border Gateway Protocol is the only inter-domain routing protocol
-aw=
+aw=f
 # Question 'ax': True or false: Border Gateway Protocol speakers can cancel previously advertised paths
-ax=
+ax=f
 # Question 'ay': True or false: Whenever a congestion window's worth of data has been acknowledged, the TCP congestion protcol will add one congestion window's worth of bytes to the congestion window size
 ay=
 # Question 'az': True or false: The TCP source port field is at offset 0 in the TCP header
