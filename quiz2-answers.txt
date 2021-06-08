@@ -46,51 +46,51 @@ aw=f
 # Question 'ax': True or false: Border Gateway Protocol speakers can cancel previously advertised paths
 ax=f
 # Question 'ay': True or false: Whenever a congestion window's worth of data has been acknowledged, the TCP congestion protcol will add one congestion window's worth of bytes to the congestion window size
-ay=
+ay=t
 # Question 'az': True or false: The TCP source port field is at offset 0 in the TCP header
-az=
+az=f
 # Question 'ba': True or false: The SYN and FIN flags are used when establishing and terminating a TCP connection
-ba=
+ba=t
 # Question 'bb': True or false: TCP practices Congestion Avoidance rather than Congestion Control
-bb=
+bb=t
 # Question 'bc': True or false: Differentiated Services typically uses a label in a packet header to identify the traffic class
-bc=
+bc=t
 # Question 'bd': True or false: TCP uses a Congestion Window to limit how much data can be transmitted at a given time
-bd=
+bd=t
 # Question 'be': True or false: The congestion control protocol of TCP communicates the congestion window by setting the advertised window and flags in the TCP header to indicate that the value is for the congestion window
-be=
+be=f
 # Question 'bf': True or false: Network flows are streams of related packets that flow through a given router 
-bf=
+bf=t
 # Question 'bg': True or false: The UDP header contains source port, destination port, checksum and length fields
-bg=
+bg=t
 # Question 'bh': True or false: "Differentiated Services" is a coarse-grained quality-of-service approach
-bh=
+bh=t
 # Question 'bi': True or false: Source-based Congestion Avoidance works by having routers provide a separate packet queue for each source
-bi=
+bi=t
 # Question 'bj': True or false: Modern routers allow setting the Jain's Fairness Index to control the fairness of congestion control
-bj=
+bj=t
 # Question 'bk': True or false: The RSpec of a flow is easier to define correctly than the TSpec
-bk=
+bk=t
 # Question 'bl': True or false: Admission Control is a mechanism in RSVP where the network decides if it can satisfy a request for a given quality-of-service. If not, the access is not permitted
-bl=
+bl=t
 # Question 'bm': True or false: Transport protocols typically allow the receiver to apply flow control
-bm=
+bm=t
 # Question 'bn': True or false: Multi-provider Internet topologies typically involve peering points
-bn=
+bn=t
 # Question 'bo': True or false: If the TCP Slow Start algorithm is re-started, the Congestion Threshold is reset to 0
-bo=
+bo=f
 # Question 'bp': True or false: Inter-domain routing exists to find optimal routes among the many supplied paths between destinations
-bp=
+bp=t
 # Question 'bq': True or false: Voice, video and remote control are examples of network applications where Quality-of-Service should work to minimise latency
-bq=
+bq=t
 # Question 'br': True or false: Mobile IP requires the use of tunnels or care-of addresses to deliver packets to mobile nodes
-br=
+br=t
 # Question 'bs': True or false: Distance-Vector Multicast forwards received multicast packets received from any router on all outgoing links
-bs=
+bs=t
 # Question 'bt': True or false: Source-based Congestion Avoidance can also use other algorithms that rely on more than just the RTT, such as the advertised window size
-bt=
+bt=t
 # Question 'bu': True or false: Reverse Path Broadcast is used to prune networks that contain no members in a given multicast group
-bu=
+bu=t
 # Question 'bv': True or false: The Karn/Partridge algorithm works well only when there is sufficient variance in RTT times
 bv=
 # Question 'bw': True or false: The UDP protocol demultiplexes packets arriving at a host into separate queues for each application
