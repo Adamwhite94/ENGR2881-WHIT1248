@@ -92,37 +92,37 @@ bt=t
 # Question 'bu': True or false: Reverse Path Broadcast is used to prune networks that contain no members in a given multicast group
 bu=t
 # Question 'bv': True or false: The Karn/Partridge algorithm works well only when there is sufficient variance in RTT times
-bv=
+bv=t
 # Question 'bw': True or false: The UDP protocol demultiplexes packets arriving at a host into separate queues for each application
-bw=
+bw=t
 # Question 'bx': True or false: Silly Window Syndrome occurs when a TCP implementation sends many very small segments, instead of waiting to collect enough data to fill a larger segment
-bx=
+bx=t
 # Question 'by': True or false: Quality-of-Service implies that some packets will be treated differently to others
-by=
+by=t
 # Question 'bz': True or false: Large corporations are required to connect to multiple backbones to provide redundancy
-bz=
+bz=t
 # Question 'ca': True or false: The TSpec of a Flowspec describes the network service that has been requested
-ca=
+ca=f
 # Question 'cb': True or false: Multicast allows a sender to send only one packet, and have it be received my multiple recipients
-cb=
+cb=t
 # Question 'cc': True or false: Fair Queuing performs bit-by-bit interleaving of packets to ensure fair allocation of network bandwidth
-cc=
+cc=t
 # Question 'cd': True or false: Soft-state of network flows helps routers to better handle traffic from that flow
-cd=
+cd=t
 # Question 'ce': True or false: RPC is a protocol that sits on top of IP, similar to TCP and UDP
-ce=
+ce=t
 # Question 'cf': True or false: Congestion Collapse was implemented in TCP to improve network performance
-cf=
+cf=f
 # Question 'cg': True or false: Fairness of resource allocation in a network is often as important as effective utilisation of the network
-cg=
+cg=t
 # Question 'ch': True or false: Packets contend for a place in the transmission queue of a router
-ch=
+ch=t
 # Question 'ci': True or false: IPv6 addresses are not allocated on a geographic basis, because IPv6 offers enough addresses that this is not necessary
-ci=
+ci=t
 # Question 'cj': True or false: UDP provides a simple demultiplexer to support end-to-end communications
-cj=
+cj=t
 # Question 'ck': True or false: Multicast routing is the process by which multicast distribution trees are determined
-ck=
+ck=t
 # Question 'cl': True or false: Congestion in networks often occurs because a connected host has a faster local connection than some other part of the network, which then acts as a bottle-neck
 cl=
 # Question 'cm': True or false: Fair-Queuing maintains separate queues per network flow, to improve fairness
