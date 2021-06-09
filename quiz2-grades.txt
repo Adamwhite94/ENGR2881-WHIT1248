@@ -1,8 +1,8 @@
 quiz2 PROVISIONAL GRADE: F
 
-NOTE: Changes made after Wed Jun 9 10:36:33 2021 +0930 have not yet been graded.
+NOTE: Changes made after Wed Jun 9 10:37:11 2021 +0930 have not yet been graded.
 
-SUMMARY: 75 true/false and yes/no questions: 10 correct, 11 incorrect.
+SUMMARY: 75 true/false and yes/no questions: 26 correct, 18 incorrect.
          (Incorrect answers cannot be shown, as that would immediately tell you how to get 100% ;)
 
 
