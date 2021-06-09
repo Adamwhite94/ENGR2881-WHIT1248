@@ -124,28 +124,28 @@ cj=t
 # Question 'ck': True or false: Multicast routing is the process by which multicast distribution trees are determined
 ck=t
 # Question 'cl': True or false: Congestion in networks often occurs because a connected host has a faster local connection than some other part of the network, which then acts as a bottle-neck
-cl=
+cl=t
 # Question 'cm': True or false: Fair-Queuing maintains separate queues per network flow, to improve fairness
-cm=
+cm=t
 # Question 'cn': True or false: "Integrated Services" is a quality-of-service scheme for packet switched IP networks. It does not support reservations
-cn=
+cn=t
 # Question 'co': True or false: Internet Group Management Protcol (IGMP) is used to signal the intent to join or leave a multicast group on IPv4
-co=
+co=t
 # Question 'cp': True or false: Source Specific Multicast offers improved one-to-many multicast support for IP
-cp=
+cp=t
 # Question 'cq': True or false: RSVP can be used for both unicast and multicast flows
-cq=
+cq=t
 # Question 'cr': True or false: The Jacobson/Karels algorithm uses a retransmission delay close to the estimated RTT when RTT variance is small, but which grows quickly as the variation in RTT grows
-cr=
+cr=t
 # Question 'cs': True or false: IPv6 headers are longer than IPv4 headers
-cs=
+cs=t
 # Question 'ct': True or false: TCP Fast Retransmit works by reducing the TCP retransmission timeout
-ct=
+ct=f
 # Question 'cu': True or false: Controlled Load Service in RSVP means that the network should control the volume of packets of that service that are admitted to the network
-cu=
+cu=t
 # Question 'cv': True or false: In FIFO queuing, the first packet received will be the first to be transmitted
-cv=
+cv=t
 # Question 'cw': True or false: Whenever the loss of a packet is detected, the TCP congestion control protocol will halve the congestion window size, but never reducing it below one full packet's worth of data
-cw=
+cw=t
 # Question 'cx': True or false: Congestion control and resource allocation can be viewed as different perspectives of the same problem
-cx=
+cx=t
