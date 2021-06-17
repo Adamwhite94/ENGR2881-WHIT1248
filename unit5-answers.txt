@@ -10,13 +10,13 @@
 #	0x0070:  7d55 f0fd 3dab 5595 3f                   }U..=.U.?
 # Question 'ab': For the supplied packet: IP TTL
 #        Format: Integer: Answer with the decimal value of the field.
-ab=61
+ab=27
 # Question 'ac': For the supplied packet: IP FLAGS
 #        Format: Integer: Answer with the decimal value of the field.
-ac=1
+ac=4
 # Question 'ad': For the supplied packet: Frame is 802.1q
 #        Format: Boolean: Answer Y or N
-ad=
+ad=N
 # Question 'ae': For the supplied packet: ETH destination address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
 ae=
