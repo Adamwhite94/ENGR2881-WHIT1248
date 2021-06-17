@@ -19,10 +19,10 @@ ac=4
 ad=N
 # Question 'ae': For the supplied packet: ETH destination address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
-ae=
+ae=2d:7d:84:22:c5:8b
 # Question 'af': For the supplied packet: ETH source address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
-af=
+af=af:97:e4:ff:e8:d4:aa
 # Question 'ag': For the supplied packet: MPLS label
 #        Format: Integer: Answer with the decimal value of the field.
 ag=
