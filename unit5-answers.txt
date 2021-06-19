@@ -47,7 +47,7 @@ ai=Y
 aj=Y
 # Question 'ak': For the supplied packet: IP TTL
 #        Format: Integer: Answer with the decimal value of the field.
-ak=
+ak=96
 # Question 'al': For the supplied packet: ETH frame type
 #        Format: Four-digit Hex: Answer with the four digit hexadecimal value of the field, e.g., 02AF. Do not put a leading 0x or \$ on the front of the hexadecimal number.
 al=
@@ -64,16 +64,16 @@ am=Y
 #	0x0060:  9de5 722a 09b4 3289 7de4 3fff 6675 f414  ..r*..2.}.?.fu..
 # Question 'an': For the supplied packet: IP DSCP
 #        Format: Integer: Answer with the decimal value of the field.
-an=
+an=45
 # Question 'ao': For the supplied packet: Frame is 802.1q
 #        Format: Boolean: Answer Y or N
-ao=
+ao=N
 # Question 'ap': For the supplied packet: MPLS label
 #        Format: Integer: Answer with the decimal value of the field.
 ap=
 # Question 'aq': For the supplied packet: IP More Fragments
 #        Format: Boolean: Answer Y or N
-aq=
+aq=F
 # Question 'ar': For the supplied packet: MPLS TTL
 #        Format: Integer: Answer with the decimal value of the field.
 ar=
