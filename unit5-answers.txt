@@ -56,8 +56,7 @@ al=
 am=Y
 # Packet dump:
 #	0x0000:  c391 3685 e698 70d9 8c72 6b98 8847 0001  ..6...p..rk..G..
-#	0x0010:  1d0c 4500 005e 0000 4000 2d11 0000 4d40  ..E..^..@.-...M@
-#	0x0020:  df0e e6b1 4b9a b978 833c 0105 8d22 3659  ....K..x.<..."6Y
+#	0x0010:  1d0c e6b1 4b9a b978 833c 0105 8d22 3659  ....K..x.<..."6Y
 #	0x0030:  55f6 365c 1c88 5857 5763 9e0d 83f8 0f3b  U.6\..XWWc.....;
 #	0x0040:  bc1d da9b 80f5 2956 ec74 2463 f740 23f8  ......)V.t$c.@#.
 #	0x0050:  d9ae 04c5 30f5 b94a e0a6 fd47 3cf2 6121  ....0..J...G<.a!
@@ -73,15 +72,15 @@ ao=N
 ap=
 # Question 'aq': For the supplied packet: IP More Fragments
 #        Format: Boolean: Answer Y or N
-aq=F
+aq=N
 # Question 'ar': For the supplied packet: MPLS TTL
 #        Format: Integer: Answer with the decimal value of the field.
 ar=
 # Question 'as': For the supplied packet: ETH destination address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
-as=
+as=e6:b1:4b:9a:b9:78
 # Packet dump:
-#	0x0000:  9201 6739 729e d3a8 ffd7 b186 8100 3a8d  ..g9r.........:.
+#	0x0000:  9201 6739 729e d3a8 ffd7 b186 8100 3a8d  ..g9r.........:. 
 #	0x0010:  0800 4500 0070 0000 0000 2c06 0000 79fb  ..E..p....,...y.
 #	0x0020:  2fb5 7814 64cd 490b 5b37 2e52 aa06 50eb  /.x.d.I.[7.R..P.
 #	0x0030:  31b6 5082 fc74 0000 0005 fc3f 238f 2ba5  1.P..t.....?#.+.
@@ -92,22 +91,22 @@ as=
 #	0x0080:  e55a                                     .Z
 # Question 'at': For the supplied packet: IP TTL
 #        Format: Integer: Answer with the decimal value of the field.
-at=
+at=44
 # Question 'au': For the supplied packet: IP ECN
 #        Format: Integer: Answer with the decimal value of the field.
-au=
+au=12123
 # Question 'av': For the supplied packet: TCP CWR
 #        Format: Boolean: Answer Y or N
-av=
+av=82
 # Question 'aw': For the supplied packet: TCP PSH
 #        Format: Boolean: Answer Y or N
-aw=
+aw=74
 # Question 'ax': For the supplied packet: TCP destination port
 #        Format: Integer: Answer with the decimal value of the field.
 ax=
 # Question 'ay': For the supplied packet: IP Don't Frag
 #        Format: Boolean: Answer Y or N
-ay=
+ay=N
 # Packet dump:
 #	0x0000:  7d9f b621 f503 b6d5 33ba ed4a 8848 0000  }..!....3..J.H..
 #	0x0010:  7148 4500 003d 0000 4000 0d06 0000 58a9  qHE..=..@.....X.
