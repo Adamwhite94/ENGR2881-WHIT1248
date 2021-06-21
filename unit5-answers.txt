@@ -118,7 +118,7 @@ ay=N
 az=
 # Question 'ba': For the supplied packet: ETH destination address
 #        Format: Ethernet MAC Address. Answer in the customary format, retaining leading zeroes, e.g., 02:ca:fe:f0:0d:00
-ba=
+ba=0d:0600:0058:a9
 # Question 'bb': For the supplied packet: TCP ACK sequence number
 #        Format: Integer: Answer with the decimal value of the field.
 bb=
