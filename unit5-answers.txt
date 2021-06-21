@@ -130,7 +130,7 @@ bc=
 bd=
 # Question 'be': For the supplied packet: TCP URG
 #        Format: Boolean: Answer Y or N
-be=
+be=Y
 # Packet dump:
 #	0x0000:  7fe7 7d74 d1ea 6d28 1643 69bf 8100 4d9f  ..}t..m(.Ci...M.
 #	0x0010:  0800 4500 0078 0000 0000 2811 0000 fcad  ..E..x....(.....
